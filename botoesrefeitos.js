@@ -1,7 +1,7 @@
 // refazer os botoes criados para melhor fixar os conteudos
 let listaDeNumerosSorteados = []
 let numeroSecreto = numeroAleatorio()
-let numeroDeTentativas = 1
+let numeroDeTentativas = 1 // responsavel por acompanhar o número de vezes que o jogador tentou
 console.log(numeroSecreto)
 
 // 3 funcoes aprendidas ate o momento
