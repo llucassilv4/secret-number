@@ -3,13 +3,14 @@ let listaDeNumerosSorteados = []
 let numeroSecreto = numeroAleatorio()
 let numeroDeTentativas = 1 // responsavel por acompanhar o número de vezes que o jogador tentou
 console.log(numeroSecreto)
+let numeroMaximoLimite = 10
 
 // 3 funcoes aprendidas ate o momento
 
 // funcao 1, funcao com retorno que me devolve um numero aleatorio
 function numeroAleatorio() {
     // tudo foi feito apenas aqui
-    let numeroSorteado = parseInt(Math.random()*4+1)
+    let numeroSorteado = parseInt(Math.random()*numeroMaximoLimite+1)
     let quantidadeElementosLista = listaDeNumerosSorteados.length;
 
     if(listaDeNumerosSorteados.includes(numeroSorteado)){
